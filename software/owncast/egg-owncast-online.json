@@ -13,7 +13,7 @@
         "ghcr.io\/pterodactyl\/yolks:debian": "ghcr.io\/pterodactyl\/yolks:debian"
     },
     "file_denylist": [],
-    "startup": ".\/owncast -webserverport {{SERVER_PORT}} -rtmpport {{RTMP_PORT}} -streamkey {{STREAM_KEY}}",
+    "startup": ".\/owncast -webserverport {{SERVER_PORT}} -rtmpport {{RTMP_PORT}} --streamkey {{STREAM_KEY}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"The web admin interface is available at \/admin.\"\r\n}",
